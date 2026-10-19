@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#17151a">
+    <meta name="description" content="A visual edit of beauty from Chanel, Dior, and Yves Saint Laurent.">
+    <title>The Beauty Edit — Chanel, Dior & YSL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <a class="wordmark" href="#top" aria-label="The Beauty Edit home">THE BEAUTY EDIT<span>®</span></a>
+        <p class="topbar-note">A STUDY IN ICONIC BEAUTY</p>
+        <a class="topbar-index" href="#gallery">THE COLLECTION <span>↘</span></a>
+    </header>
+
+    <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+            <div class="intro-copy">
+                <p class="eyebrow"><span class="eyebrow-line"></span> OBJECTS OF DESIRE · VOL. 01</p>
+                <h1 id="page-title">Beauty,<br><em>collected.</em></h1>
+                <p class="intro-description">A little love letter to the details that make getting ready feel like a ritual.</p>
+            </div>
+            <div class="intro-aside" aria-hidden="true">
+                <span class="aside-number">03</span>
+                <span class="aside-rule"></span>
+                <span class="aside-caption">HOUSES<br>OF BEAUTY</span>
+            </div>
+            <span class="intro-stamp" aria-hidden="true">THE<br>VANITY<br>ARCHIVE</span>
+        </section>
+
+        <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+            <div class="gallery-heading">
+                <div>
+                    <p class="eyebrow section-eyebrow">THE EDIT</p>
+                    <h2 id="gallery-title">On the vanity</h2>
+                </div>
+                <p class="image-count" id="image-count">09 <span>PHOTOGRAPHS</span></p>
+            </div>
+
+            <div class="filter-row" role="group" aria-label="Filter photos by brand">
+                <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>09</span></button>
+                <button class="filter-button" type="button" data-filter="Chanel" aria-pressed="false">Chanel <span>03</span></button>
+                <button class="filter-button" type="button" data-filter="Dior" aria-pressed="false">Dior <span>03</span></button>
+                <button class="filter-button" type="button" data-filter="YSL" aria-pressed="false">YSL <span>03</span></button>
+                <p class="filter-hint">SELECT A HOUSE <span>✳</span></p>
+            </div>
+
+            <div class="photo-grid" id="photo-grid" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <section class="instagram-section" aria-labelledby="instagram-title">
+        <div class="instagram-heading">
+            <p class="eyebrow section-eyebrow">FOLLOW ALONG</p>
+            <h2 id="instagram-title">Find me on Instagram</h2>
+        </div>
+        <div class="instagram-links">
+            <article class="instagram-account">
+                <div class="instagram-account-row">
+                    <span class="instagram-account-label">ACCOUNT 01</span>
+                    <a class="instagram-username" href="https://www.instagram.com/kanajustforyou/" target="_blank" rel="noopener noreferrer">@kanajustforyou</a>
+                    <button class="instagram-profile-button" type="button" aria-label="Show description for @kanajustforyou" aria-expanded="false" aria-controls="description-kanajustforyou">
+                        <img src="IMG/pro(1).jpg" alt="">
+                    </button>
+                    <a class="instagram-external" href="https://www.instagram.com/kanajustforyou/" target="_blank" rel="noopener noreferrer" aria-label="Visit @kanajustforyou on Instagram">↗</a>
+                </div>
+                <div class="instagram-description" id="description-kanajustforyou" hidden>
+                    <h3>About @kanajustforyou</h3>
+                    <p>Add this account's description here.</p>
+                </div>
+            </article>
+            <article class="instagram-account">
+                <div class="instagram-account-row">
+                    <span class="instagram-account-label">ACCOUNT 02</span>
+                    <a class="instagram-username" href="https://www.instagram.com/alyrhmthsn_naa/" target="_blank" rel="noopener noreferrer">@alyrhmthsn_naa</a>
+                    <button class="instagram-profile-button" type="button" aria-label="Show description for @alyrhmthsn_naa" aria-expanded="false" aria-controls="description-alyrhmthsn-naa">
+                        <img src="IMG/pro(2).jpg" alt="">
+                    </button>
+                    <a class="instagram-external" href="https://www.instagram.com/alyrhmthsn_naa/" target="_blank" rel="noopener noreferrer" aria-label="Visit @alyrhmthsn_naa on Instagram">↗</a>
+                </div>
+                <div class="instagram-description" id="description-alyrhmthsn-naa" hidden>
+                    <h3>About @alyrhmthsn_naa</h3>
+                    <p>Add this account's description here.</p>
+                </div>
+            </article>
+            <article class="instagram-account">
+                <div class="instagram-account-row">
+                    <span class="instagram-account-label">ACCOUNT 03</span>
+                    <a class="instagram-username" href="https://www.instagram.com/rre.gitta_/" target="_blank" rel="noopener noreferrer">@rre.gitta_</a>
+                    <button class="instagram-profile-button" type="button" aria-label="Show description for @rre.gitta_" aria-expanded="false" aria-controls="description-rre-gitta">
+                        <img src="IMG/pro(3).jpg" alt="">
+                    </button>
+                    <a class="instagram-external" href="https://www.instagram.com/rre.gitta_/" target="_blank" rel="noopener noreferrer" aria-label="Visit @rre.gitta_ on Instagram">↗</a>
+                </div>
+                <div class="instagram-description" id="description-rre-gitta" hidden>
+                    <h3>About @rre.gitta_</h3>
+                    <p>Add this account's description here.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <a class="wordmark footer-wordmark" href="#top">THE BEAUTY EDIT<span>®</span></a>
+        <p>AN APPRECIATION OF THE EVERYDAY EXTRAORDINARY</p>
+        <a class="back-to-top" href="#top">BACK TO TOP ↑</a>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true" hidden>
+        <button class="lightbox-close" type="button" aria-label="Close photo viewer">×</button>
+        <button class="lightbox-arrow lightbox-previous" type="button" aria-label="Previous photo">←</button>
+        <figure class="lightbox-figure">
+            <img class="lightbox-image" id="lightbox-image" src="" alt="">
+            <figcaption class="lightbox-caption">
+                <span id="lightbox-brand"></span>
+                <span id="lightbox-position"></span>
+                <p class="lightbox-description" id="lightbox-description" hidden></p>
+            </figcaption>
+        </figure>
+        <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next photo">→</button>
+    </div>
+</body>
+</html>
